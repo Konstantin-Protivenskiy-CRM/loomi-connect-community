@@ -30,6 +30,7 @@ Skills that span Bloomreach products (Discovery, Engagement, Data Hub) and use L
 | Skill | What it does | Access |
 |---|---|---|
 | [loomi-connect-feedback](skills/loomi-connect-feedback/) | Turns a Loomi Connect tool problem, or a known (bug?) item, into one privacy-safe report for the Loomi Connect team, one per yes | **Writes** |
+| [loomi-mcp-error-handling](skills/loomi-mcp-error-handling/) | What to do when a Loomi Connect call times out, is rejected, hits a cost or rate limit, or returns wrong numbers, plus a checklist of questions to settle before building | Read-only |
 
 Skills marked **Writes** only run when you call them by name, and ask for confirmation before every change.
 

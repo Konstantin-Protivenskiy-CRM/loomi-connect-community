@@ -200,6 +200,8 @@ Ask it in your own words, for example *"how many people bought twice last month?
 
 [loomi-connect-feedback](../plugins/loomi-platform/skills/loomi-connect-feedback/) (**writes** one report, after you confirm) turns the problem, or a "(bug?)" item in [known-tool-behaviour.md](known-tool-behaviour.md), into one redacted report for the Loomi Connect team.
 
+[loomi-mcp-error-handling](../plugins/loomi-platform/skills/loomi-mcp-error-handling/) (read-only) tells you what to do when a call times out, is rejected, hits a cost or rate limit, or returns numbers that look wrong, and lists the questions to settle before a build so work isn't repeated. It never changes anything itself.
+
 ## Good to know
 
 - **Nearly every skill only reads data.** The few that can change things are marked **writes**. They only run when you call them by name, and they show you exactly what will change and wait for your "yes".
